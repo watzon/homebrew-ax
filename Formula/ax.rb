@@ -1,11 +1,11 @@
 class Ax < Formula
   desc "macOS Accessibility Inspector CLI — inspect UI hierarchies, attributes, and actions"
   homepage "https://github.com/watzon/ax-cli"
-  version "0.1.0"
+  version "0.2.0"
   license "MIT"
 
-  url "https://github.com/watzon/ax-cli/releases/download/v#{version}/ax-#{version}-universal-apple-darwin.tar.gz"
-  sha256 "499e33431b58b2e6081aec7961dec85561138ba98e167ac38fe1c4f57c189685"
+  url "https://github.com/watzon/ax-cli/releases/download/v0.2.0/ax-0.2.0-universal-apple-darwin.tar.gz"
+  sha256 "027feab7831b516d46fbc4babdf9c3dd0cdf5ea4782993952e5417e4623f0cc3"
 
   depends_on :macos
 

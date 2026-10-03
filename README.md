@@ -1,17 +1,15 @@
-# homebrew-ax
+# homebrew-ax (moved)
 
-Homebrew tap for [ax](https://github.com/watzon/ax-cli), a macOS Accessibility Inspector CLI.
+This tap moved to [watzon/homebrew-tap](https://github.com/watzon/homebrew-tap). It gets no more updates.
 
-## Installation
+If you installed `ax` from this tap, run `brew update`. Homebrew then moves your install to the new tap. After that you can remove this tap:
 
 ```bash
-brew tap watzon/ax
-brew install ax
+brew untap watzon/ax
 ```
 
-## Updating
+For a new install of [ax](https://github.com/watzon/ax-cli):
 
 ```bash
-brew update
-brew upgrade ax
+brew install watzon/tap/ax
 ```
